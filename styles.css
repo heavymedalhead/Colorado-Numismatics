@@ -1,5 +1,5 @@
 body{
-    background-color: #333333;
+    background-color: #292929;
     font-family: "Courier New";
     text-align: center;
     padding: 2%;
@@ -100,7 +100,7 @@ body{
 }
 
 .collapsible {
-  background-color: #333333;
+  background-color: #292929;
   color: #D3BC8D;
   cursor: pointer;
   padding: 18px;
@@ -112,19 +112,19 @@ body{
 }
 
 .active, .collapsible:hover {
-  background-color: #333333;
+  background-color: #292929;
 }
 
 .content {
   padding: 0 18px;
   display: none;
   overflow: hidden;
-  background-color: #333333;
+  background-color: #292929;
   font-size: 15px;
 }
 
 .button {
-  background-color: #333333;
+  background-color: #292929;
   border: 2px solid #B58500;
   color: #B58500;
   width: 300px;
@@ -142,7 +142,7 @@ body{
 .button:hover {
   background-color: #B58500;
   border: 2px solid #B58500;
-  color: #333333;
+  color: #292929;
   width: 300px;
   padding: 8px 16px;
   text-align: center;
@@ -155,7 +155,7 @@ body{
 }
 
 input[type=text] {
-    background-color: #333333;
+    background-color: #292929;
     border: 2px solid #B58500;
     color: #B58500;
     width: 82px;
@@ -169,8 +169,23 @@ input[type=text] {
     border-radius: 0;
 }
 
+input[type=handshake] {
+  background-color: #292929;
+    border: 2px solid #B58500;
+    color: #B58500;
+    width: 300px;
+    padding: 8px 16px;
+    font-family: 'Courier New';
+    font-size: 15px;
+    font-weight: normal;
+    text-align: center;
+    margin: 8px;
+    box-sizing: border-box;
+    border-radius: 0;
+}
+
 input[type=submit] {
-    background-color: #333333;
+  background-color: #292929;
     border: 2px solid #B58500;
     color: #B58500;
     width: 300px;
@@ -192,7 +207,7 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color: #B58500;
   border: 2px solid #B58500;
-  color: #333333;
+  color: #292929;
   width: 300px;
   padding: 8px 16px;
   text-align: center;
@@ -201,6 +216,100 @@ input[type=submit]:hover {
   font-family: 'Courier New';
   font-size: 15px;
   text-align: center;
+  margin: 8px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+
+.modal-overlay {
+  display: none; 
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0, 0, 0, 0.66);
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: #292929;
+  border: 2px solid #B58500;
+  color: #B58500;
+  width: 350px;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Courier New';
+  font-size: 15px;
+  text-align: center;
+  margin: 8px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+#openBtn {
+  background-color: #292929;
+  border: 2px solid #B58500;
+  color: #B58500;
+  width: 300px;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  font-family: 'Courier New';
+  margin: 8px;
+  box-sizing: border-box;
+  transition-duration: 0.7s;
+  cursor: pointer;
+}
+
+#openBtn:hover {
+  background-color: #B58500;
+  border: 2px solid #B58500;
+  color: #292929;
+  width: 300px;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  font-family: 'Courier New';
+  margin: 8px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+#closeBtn {
+  background-color: #292929;
+  border: 2px solid #B58500;
+  color: #B58500;
+  width: 300px;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  font-family: 'Courier New';
+  margin: 8px;
+  box-sizing: border-box;
+  transition-duration: 0.7s;
+  cursor: pointer;
+}
+
+#closeBtn:hover {
+  background-color: #B58500;
+  border: 2px solid #B58500;
+  color: #292929;
+  width: 300px;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  font-family: 'Courier New';
   margin: 8px;
   box-sizing: border-box;
   cursor: pointer;

@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
     <title>Colorado Numismatics</title>
     <link rel="stylesheet" href="../../../styles.css">
     <link rel="icon" type="image/svg" href="../../../assets/favicon.svg">
@@ -17,7 +18,14 @@
 --><--><--><--><--><--><--><--><--
   </div>
 
-  <p id="item_body">The vault is locked. Enter the correct combination to open it.</p>
+<button id="openBtn">READ A MESSAGE</button>
+<div id="modalWrapper" class="modal-overlay">
+  <div class="modal-content">
+    <h3>THE GUIDE SAYS:</h3>
+    <p>"The vault is locked. You must enter the correct combination to proceed."</p>
+    <button id="closeBtn" type="button">GOT IT</button>
+</div>
+</div>
   
   <div>
     <form onsubmit="event.preventDefault(); checkCombination();">
@@ -25,16 +33,8 @@
       <input type="text" id="pswd1">
       <input type="text" id="pswd2">
       <br>
-      <input type="submit" value="Open" />
+      <input type="submit" value="TRY COMBINATION" />
     </form>
-  </div>
-
-  <div class="ascii-art_separator">
---><--><--><--><--><--><--><--><--
-  </div>
-
-  <div>
-  <a href="floor0.html" class="button button1">Leave the Vault</a>
   </div>
 
   <div class="ascii-art_separator">
